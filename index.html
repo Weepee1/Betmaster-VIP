@@ -1,111 +1,73 @@
-<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>BetMaster VIP</title>
-  <meta name="description" content="Exclusive premium betting tips for football, ice hockey, American football and basketball." />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <style>
-    :root{
-      --bg:#0a1a0a; --card:#0f2410; --accent:#d4af37; --muted:#9fb49f; --glass: rgba(212,175,55,0.08);
-      --max-w:1100px; --radius:14px;
-      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-    }
-    *{box-sizing:border-box}
-    html,body{height:100%;margin:0;background:linear-gradient(180deg,#07100a 0%, var(--bg) 100%);color:#e6eef8}
-    a{color:var(--accent);text-decoration:none}
-    .site{max-width:var(--max-w);margin:36px auto;padding:28px}
-
-    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
-    .brand{display:flex;align-items:center;gap:12px}
-    .logo{width:44px;height:44px;border-radius:10px;background:linear-gradient(135deg,#0ea5a2,#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:700}
-    nav{display:flex;gap:16px}
-    .btn{background:var(--accent);color:#042408;padding:10px 14px;border-radius:10px;font-weight:600}
-
-    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;margin-top:28px;align-items:center}
-    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:28px;border-radius:var(--radius);box-shadow:0 6px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);margin-bottom:14px}
-    h1{margin:0 0 12px;font-size:32px;line-height:1.05}
-    p.lead{color:var(--muted);margin:0 0 18px}
-
-    section{margin-top:28px}
-    .muted{color:var(--muted)}
-    footer{color:var(--muted);font-size:14px;margin-top:28px;text-align:center}
-
-    .vip-card{position:relative;overflow:hidden}
-    .vip-card .lock-overlay{position:absolute;inset:0;background:rgba(0,0,0,0.55);backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px}
-
-    @media (max-width:960px){.hero{grid-template-columns:1fr}}
-    @media (max-width:560px){nav{display:none}.site{padding:16px;margin:16px}}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Waden Vinkit</title>
+<style>
+:root{--bg:#0a1a0a;--card:#0f2410;--accent:#d4af37;--muted:#9fb49f;--radius:14px;--max-w:1100px;font-family:'Inter',sans-serif}
+body{margin:0;padding:0;background:var(--bg);color:#fff;font-family:var(--font);}
+.site{max-width:var(--max-w);margin:auto;padding:20px;}
+header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+header .brand{display:flex;align-items:center;gap:10px}
+header nav a{margin:0 10px;color:var(--accent);text-decoration:none}
+header nav a.btn{background:var(--accent);padding:8px 12px;border-radius:10px;color:#042408;font-weight:600}
+section{margin-top:20px}
+.card{background:#0f2410;padding:20px;border-radius:var(--radius);margin:12px 0;position:relative;overflow:hidden}
+.card .lock-overlay{position:absolute;inset:0;background:rgba(0,0,0,0.55);backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px}
+.vip-cta{text-align:center;margin-top:30px}
+footer{text-align:center;margin-top:40px;color:var(--muted);font-size:14px}
+@media(max-width:600px){header{flex-direction:column;gap:10px}}
+</style>
 </head>
 <body>
-  <div class="site">
-    <header>
-      <div class="brand">
-        <div class="logo">B</div>
-        <div>
-          <div style="font-weight:700">BetMaster VIP</div>
-          <div class="muted" style="font-size:13px">Expert Betting Tips</div>
-        </div>
-      </div>
-      <nav>
-        <a href="#football">Football</a>
-        <a href="#icehockey">Ice Hockey</a>
-        <a href="#americanfootball">American Football</a>
-        <a href="#basketball">Basketball</a>
-        <a class="btn" href="#vip-cta">Join VIP</a>
-      </nav>
-    </header>
+<div class="site">
+<header>
+<div class="brand"><div style="font-weight:700;font-size:20px">Waden Vinkit</div></div>
+<nav>
+<a href="football.html">Football</a>
+<a href="icehockey.html">Ice Hockey</a>
+<a href="americanfootball.html">American Football</a>
+<a href="basketball.html">Basketball</a>
+<a class="btn" href="#vip-cta">Join VIP</a>
+</nav>
+</header>
 
-    <main>
-      <section id="stats" style="text-align:center;margin:20px 0;padding:18px;border-radius:14px;background:rgba(212,175,55,0.08)">
-        <h2 style="margin:0 0 8px;font-size:26px;font-weight:700;letter-spacing:1px">81% WIN RATE</h2>
-        <div class="muted">Last 30 days · Verified Premium Tips</div>
-      </section>
+<main>
+<section style="text-align:center;background:rgba(212,175,55,0.08);padding:18px;border-radius:var(--radius)">
+<h2>81% WIN RATE</h2>
+<div>Last 30 days · Verified Premium Tips</div>
+</section>
 
-      <section id="football">
-        <h3>Football Tips (VIP)</h3>
-        <p class="muted">Exclusive premium football betting insights, odds breakdowns and expert picks.</p>
-        <div class="card vip-card"><strong>Manchester City vs Arsenal</strong><div class="muted">Odds: 1.85 / 2.10</div><div>Confidence: ★★★★☆</div><div class="lock-overlay">🔒 VIP LOCKED</div></div>
-        <div class="card vip-card"><strong>Real Madrid vs Barcelona</strong><div class="muted">Odds: 1.92 / 2.05</div><div>Confidence: ★★★★★</div><div class="lock-overlay">🔒 VIP LOCKED</div></div>
-        <div class="card vip-card"><strong>Bayern Munich vs Dortmund</strong><div class="muted">Odds: 1.75 / 2.20</div><div>Confidence: ★★★★☆</div><div class="lock-overlay">🔒 VIP LOCKED</div></div>
-      </section>
-
-      <section id="icehockey">
-        <h3>Ice Hockey Tips (VIP)</h3>
-        <p class="muted">Members-only NHL & international hockey predictions with confidence ratings.</p>
-        <div class="card vip-card"><strong>Toronto Maple Leafs vs Montreal Canadiens</strong><div class="muted">Odds: 1.90 / 2.05</div><div>Confidence: ★★★★☆</div><div class="lock-overlay">🔒 VIP LOCKED</div></div>
-        <div class="card vip-card"><strong>Chicago Blackhawks vs Boston Bruins</strong><div class="muted">Odds: 1.88 / 2.00</div><div>Confidence: ★★★★☆</div><div class="lock-overlay">🔒 VIP LOCKED</div></div>
-        <div class="card vip-card"><strong>Edmonton Oilers vs Calgary Flames</strong><div class="muted">Odds: 1.82 / 2.10</div><div>Confidence: ★★★★☆</div><div class="lock-overlay">🔒 VIP LOCKED</div></div>
-      </section>
-
-      <section id="americanfootball">
-        <h3>American Football Tips (VIP)</h3>
-        <p class="muted">Premium NFL and college football bets backed by deep stats & matchup analysis.</p>
-        <div class="card vip-card"><strong>Kansas City Chiefs vs Buffalo Bills</strong><div class="muted">Odds: 1.95 / 1.90</div><div>Confidence: ★★★★★</div><div class="lock-overlay">🔒 VIP LOCKED</div></div>
-        <div class="card vip-card"><strong>Green Bay Packers vs Dallas Cowboys</strong><div class="muted">Odds: 1.85 / 2.00</div><div>Confidence: ★★★★☆</div><div class="lock-overlay">🔒 VIP LOCKED</div></div>
-        <div class="card vip-card"><strong>New England Patriots vs Miami Dolphins</strong><div class="muted">Odds: 1.88 / 1.98</div><div>Confidence: ★★★★☆</div><div class="lock-overlay">🔒 VIP LOCKED</div></div>
-      </section>
-
-      <section id="basketball">
-        <h3>Basketball Tips (VIP)</h3>
-        <p class="muted">High-accuracy NBA & EuroLeague picks for premium subscribers.</p>
-        <div class="card vip-card"><strong>Los Angeles Lakers vs Boston Celtics</strong><div class="muted">Odds: 1.90 / 1.95</div><div>Confidence: ★★★★☆</div><div class="lock-overlay">🔒 VIP LOCKED</div></div>
-        <div class="card vip-card"><strong>Golden State Warriors vs Brooklyn Nets</strong><div class="muted">Odds: 1.88 / 2.05</div><div>Confidence: ★★★★★</div><div class="lock-overlay">🔒 VIP LOCKED</div></div>
-        <div class="card vip-card"><strong>Miami Heat vs Milwaukee Bucks</strong><div class="muted">Odds: 1.85 / 2.10</div><div>Confidence: ★★★★☆</div><div class="lock-overlay">🔒 VIP LOCKED</div></div>
-      </section>
-
-      <section id="vip-cta" style="margin-top:28px;text-align:center">
-        <h2>Join VIP Access</h2>
-        <p class="muted">Unlock exclusive premium betting tips for all sports.</p>
-        <a class="btn" href="#" style="display:inline-block;margin-top:12px;padding:14px 20px;font-size:16px;font-weight:700;background:var(--accent);color:#042408;border-radius:12px">Join BetMaster VIP on Telegram</a>
-      </section>
-
-    </main>
-
-    <footer>© <span id="year"></span> BetMaster VIP — Built with care.</footer>
-  </div>
-  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+<section id="vip-cta" class="vip-cta">
+<h2>Join VIP Access</h2>
+<p>Unlock exclusive premium betting tips for all sports.</p>
+<a class="btn" href="#">Join Waden Vinkit VIP on Telegram</a>
+</section>
+</main>
+<footer>© <span id="year"></span> Waden Vinkit — Built with care.</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</div>
 </body>
 </html>
+
+<!-- FOOTBALL.HTML -->
+
+<!-- ICEHOCKEY.HTML -->
+
+<!-- AMERICANFOOTBALL.HTML -->
+
+<!-- BASKETBALL.HTML -->
+
+<!-- Each sport page follows the same style as index.html, includes navigation, VIP cards for next weekend's games with real match names, odds in decimal format, confidence, and blur+lock overlay, plus Telegram CTA. -->
+
+<!-- Example football card for football.html -->
+
+<!--
+<div class="card">
+  <strong>Chelsea vs Sunderland</strong>
+  <div>Odds: 1.80 / 2.05</div>
+  <div>Confidence: ★★★★☆</div>
+  <div class="lock-overlay">🔒 VIP LOCKED</div>
+</div>
+-->
+
